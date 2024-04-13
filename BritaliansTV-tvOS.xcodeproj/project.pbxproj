@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0CF03E2B03CE810013CE1C /* BritaliansTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0082B03CE810013CE1C /* BritaliansTVApp.swift */; };
+		0E0CF03F2B03CE810013CE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0092B03CE810013CE1C /* Assets.xcassets */; };
+		0E0CF0402B03CE810013CE1C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF00B2B03CE810013CE1C /* Font.swift */; };
+		0E0CF0412B03CE810013CE1C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF00C2B03CE810013CE1C /* Color.swift */; };
+		0E0CF0432B03CE810013CE1C /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0102B03CE810013CE1C /* PopupView.swift */; };
+		0E0CF0442B03CE810013CE1C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0122B03CE810013CE1C /* LoadingView.swift */; };
+		0E0CF0452B03CE810013CE1C /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0132B03CE810013CE1C /* MainPage.swift */; };
+		0E0CF0462B03CE810013CE1C /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0152B03CE810013CE1C /* VideoPlayerView.swift */; };
+		0E0CF0472B03CE810013CE1C /* PlayerViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0162B03CE810013CE1C /* PlayerViewRepresentable.swift */; };
+		0E0CF0492B03CE810013CE1C /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0192B03CE810013CE1C /* ButtonStyle.swift */; };
+		0E0CF04A2B03CE810013CE1C /* MainPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF01A2B03CE810013CE1C /* MainPageContent.swift */; };
+		0E0CF04B2B03CE810013CE1C /* VideoPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF01B2B03CE810013CE1C /* VideoPageContent.swift */; };
+		0E0CF04C2B03CE810013CE1C /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF01D2B03CE810013CE1C /* MenuButton.swift */; };
+		0E0CF04D2B03CE810013CE1C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF01E2B03CE810013CE1C /* MenuItem.swift */; };
+		0E0CF04E2B03CE810013CE1C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF01F2B03CE810013CE1C /* MenuView.swift */; };
+		0E0CF04F2B03CE810013CE1C /* HighlightedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0202B03CE810013CE1C /* HighlightedView.swift */; };
+		0E0CF0502B03CE810013CE1C /* SeasonPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0212B03CE810013CE1C /* SeasonPageContent.swift */; };
+		0E0CF0512B03CE810013CE1C /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0232B03CE810013CE1C /* CardItem.swift */; };
+		0E0CF0522B03CE810013CE1C /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0252B03CE810013CE1C /* ChannelModel.swift */; };
+		0E0CF0532B03CE810013CE1C /* AdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0262B03CE810013CE1C /* AdModel.swift */; };
+		0E0CF0542B03CE810013CE1C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0272B03CE810013CE1C /* ItemModel.swift */; };
+		0E0CF0552B03CE810013CE1C /* MediaItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0282B03CE810013CE1C /* MediaItemModel.swift */; };
+		0E0CF0562B03CE810013CE1C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF0292B03CE810013CE1C /* ErrorResponse.swift */; };
+		0E0CF0572B03CE810013CE1C /* MenuVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF02B2B03CE810013CE1C /* MenuVM.swift */; };
+		0E0CF0582B03CE810013CE1C /* MainPageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF02C2B03CE810013CE1C /* MainPageVM.swift */; };
+		0E0CF0592B03CE810013CE1C /* ContentPageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF02D2B03CE810013CE1C /* ContentPageVM.swift */; };
+		0E0CF05A2B03CE820013CE1C /* ApplicationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF02E2B03CE810013CE1C /* ApplicationVM.swift */; };
+		0E0CF05C2B03CE820013CE1C /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0312B03CE810013CE1C /* Raleway-Medium.ttf */; };
+		0E0CF05D2B03CE820013CE1C /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0322B03CE810013CE1C /* Raleway-SemiBold.ttf */; };
+		0E0CF05E2B03CE820013CE1C /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0332B03CE810013CE1C /* Raleway-ExtraBold.ttf */; };
+		0E0CF05F2B03CE820013CE1C /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0342B03CE810013CE1C /* Raleway-Regular.ttf */; };
+		0E0CF0602B03CE820013CE1C /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0352B03CE810013CE1C /* Raleway-Light.ttf */; };
+		0E0CF0612B03CE820013CE1C /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0362B03CE810013CE1C /* Raleway-Black.ttf */; };
+		0E0CF0622B03CE820013CE1C /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0372B03CE810013CE1C /* Raleway-Thin.ttf */; };
+		0E0CF0632B03CE820013CE1C /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0CF0382B03CE810013CE1C /* Raleway-Bold.ttf */; };
+		0E0CF0642B03CE820013CE1C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF03A2B03CE810013CE1C /* Endpoints.swift */; };
+		0E0CF0652B03CE820013CE1C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF03B2B03CE810013CE1C /* APIError.swift */; };
+		0E0CF0662B03CE820013CE1C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF03C2B03CE810013CE1C /* APIService.swift */; };
+		0E0CF0672B03CE820013CE1C /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF03D2B03CE810013CE1C /* DataFetcher.swift */; };
+		0E41B6192B03E3BB00BB7A55 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41B6182B03E3BB00BB7A55 /* BackgroundView.swift */; };
+		4A61289D2B5C52AA00BCF2E4 /* TrailerPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61289C2B5C52AA00BCF2E4 /* TrailerPlayer.swift */; };
+		4A6142212B8B66F100B0FCCF /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6142202B8B66F100B0FCCF /* NetworkMonitor.swift */; };
+		4A6142232B8B729C00B0FCCF /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6142222B8B729C00B0FCCF /* ErrorMessageView.swift */; };
+		4AA2F89C2B4AC34100099CC6 /* PosterCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2F89B2B4AC34100099CC6 /* PosterCardItem.swift */; };
+		4AA2F89E2B4AC34900099CC6 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2F89D2B4AC34900099CC6 /* PosterView.swift */; };
+		4AA2F8A02B4AC8FB00099CC6 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2F89F2B4AC8FB00099CC6 /* UIImage.swift */; };
+		4AB596662BAAD55600318D2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB596652BAAD55600318D2D /* Kingfisher */; };
+		4AB596692BAAD57D00318D2D /* GoogleInteractiveMediaAds in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB596682BAAD57D00318D2D /* GoogleInteractiveMediaAds */; };
+		4AB5966C2BAAD58F00318D2D /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 4AB5966B2BAAD58F00318D2D /* XMLCoder */; };
+		4ACE63702BB5397200A5011A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE636F2BB5397200A5011A /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E0CEFF62B03CE610013CE1C /* BritaliansTV-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BritaliansTV-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0CF0082B03CE810013CE1C /* BritaliansTVApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BritaliansTVApp.swift; sourceTree = "<group>"; };
+		0E0CF0092B03CE810013CE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E0CF00B2B03CE810013CE1C /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		0E0CF00C2B03CE810013CE1C /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0E0CF0102B03CE810013CE1C /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		0E0CF0122B03CE810013CE1C /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0E0CF0132B03CE810013CE1C /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		0E0CF0152B03CE810013CE1C /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		0E0CF0162B03CE810013CE1C /* PlayerViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewRepresentable.swift; sourceTree = "<group>"; };
+		0E0CF0192B03CE810013CE1C /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		0E0CF01A2B03CE810013CE1C /* MainPageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageContent.swift; sourceTree = "<group>"; };
+		0E0CF01B2B03CE810013CE1C /* VideoPageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPageContent.swift; sourceTree = "<group>"; };
+		0E0CF01D2B03CE810013CE1C /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		0E0CF01E2B03CE810013CE1C /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		0E0CF01F2B03CE810013CE1C /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0E0CF0202B03CE810013CE1C /* HighlightedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightedView.swift; sourceTree = "<group>"; };
+		0E0CF0212B03CE810013CE1C /* SeasonPageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonPageContent.swift; sourceTree = "<group>"; };
+		0E0CF0232B03CE810013CE1C /* CardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		0E0CF0252B03CE810013CE1C /* ChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		0E0CF0262B03CE810013CE1C /* AdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdModel.swift; sourceTree = "<group>"; };
+		0E0CF0272B03CE810013CE1C /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		0E0CF0282B03CE810013CE1C /* MediaItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItemModel.swift; sourceTree = "<group>"; };
+		0E0CF0292B03CE810013CE1C /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		0E0CF02B2B03CE810013CE1C /* MenuVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVM.swift; sourceTree = "<group>"; };
+		0E0CF02C2B03CE810013CE1C /* MainPageVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageVM.swift; sourceTree = "<group>"; };
+		0E0CF02D2B03CE810013CE1C /* ContentPageVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentPageVM.swift; sourceTree = "<group>"; };
+		0E0CF02E2B03CE810013CE1C /* ApplicationVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationVM.swift; sourceTree = "<group>"; };
+		0E0CF02F2B03CE810013CE1C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E0CF0312B03CE810013CE1C /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		0E0CF0322B03CE810013CE1C /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		0E0CF0332B03CE810013CE1C /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0E0CF0342B03CE810013CE1C /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		0E0CF0352B03CE810013CE1C /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		0E0CF0362B03CE810013CE1C /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		0E0CF0372B03CE810013CE1C /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		0E0CF0382B03CE810013CE1C /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		0E0CF03A2B03CE810013CE1C /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		0E0CF03B2B03CE810013CE1C /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		0E0CF03C2B03CE810013CE1C /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0E0CF03D2B03CE810013CE1C /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		0E41B6182B03E3BB00BB7A55 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		4A61289C2B5C52AA00BCF2E4 /* TrailerPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerPlayer.swift; sourceTree = "<group>"; };
+		4A6142202B8B66F100B0FCCF /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		4A6142222B8B729C00B0FCCF /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+		4AA2F89B2B4AC34100099CC6 /* PosterCardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCardItem.swift; sourceTree = "<group>"; };
+		4AA2F89D2B4AC34900099CC6 /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
+		4AA2F89F2B4AC8FB00099CC6 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		4AB5966D2BAAD59A00318D2D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4ACE636F2BB5397200A5011A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4AFFC7D02BCB004200E2BC11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E0CEFF32B03CE610013CE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB5966C2BAAD58F00318D2D /* XMLCoder in Frameworks */,
+				4AB596692BAAD57D00318D2D /* GoogleInteractiveMediaAds in Frameworks */,
+				4AB596662BAAD55600318D2D /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0CEFED2B03CE610013CE1C = {
+			isa = PBXGroup;
+			children = (
+				4AFFC7D02BCB004200E2BC11 /* README.md */,
+				4AB5966D2BAAD59A00318D2D /* PrivacyInfo.xcprivacy */,
+				0E0CEFF82B03CE610013CE1C /* BritaliansTV-tvOS */,
+				0E0CEFF72B03CE610013CE1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E0CEFF72B03CE610013CE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CEFF62B03CE610013CE1C /* BritaliansTV-tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E0CEFF82B03CE610013CE1C /* BritaliansTV-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF02F2B03CE810013CE1C /* Info.plist */,
+				0E0CF0072B03CE810013CE1C /* App */,
+				0E0CF0242B03CE810013CE1C /* Model */,
+				0E0CF02A2B03CE810013CE1C /* ViewModel */,
+				0E0CF00E2B03CE810013CE1C /* View */,
+				0E0CF0392B03CE810013CE1C /* Services */,
+			);
+			path = "BritaliansTV-tvOS";
+			sourceTree = "<group>";
+		};
+		0E0CF0072B03CE810013CE1C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0092B03CE810013CE1C /* Assets.xcassets */,
+				0E0CF0082B03CE810013CE1C /* BritaliansTVApp.swift */,
+				0E0CF0302B03CE810013CE1C /* Fonts */,
+				0E0CF00A2B03CE810013CE1C /* Extensions */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0E0CF00A2B03CE810013CE1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF00B2B03CE810013CE1C /* Font.swift */,
+				0E0CF00C2B03CE810013CE1C /* Color.swift */,
+				4AA2F89F2B4AC8FB00099CC6 /* UIImage.swift */,
+				4ACE636F2BB5397200A5011A /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0E0CF00E2B03CE810013CE1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0132B03CE810013CE1C /* MainPage.swift */,
+				0E0CF0202B03CE810013CE1C /* HighlightedView.swift */,
+				0E41B6182B03E3BB00BB7A55 /* BackgroundView.swift */,
+				0E0CF01A2B03CE810013CE1C /* MainPageContent.swift */,
+				0E0CF01B2B03CE810013CE1C /* VideoPageContent.swift */,
+				0E0CF0212B03CE810013CE1C /* SeasonPageContent.swift */,
+				0E0CF01C2B03CE810013CE1C /* Menu */,
+				0E0CF0182B03CE810013CE1C /* Styles */,
+				0E0CF00F2B03CE810013CE1C /* Popup */,
+				0E0CF0112B03CE810013CE1C /* Loading */,
+				0E0CF0222B03CE810013CE1C /* CardItem */,
+				0E0CF0142B03CE810013CE1C /* VideoPlayer */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E0CF00F2B03CE810013CE1C /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0102B03CE810013CE1C /* PopupView.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		0E0CF0112B03CE810013CE1C /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0122B03CE810013CE1C /* LoadingView.swift */,
+				4A6142222B8B729C00B0FCCF /* ErrorMessageView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		0E0CF0142B03CE810013CE1C /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4A61289C2B5C52AA00BCF2E4 /* TrailerPlayer.swift */,
+				0E0CF0152B03CE810013CE1C /* VideoPlayerView.swift */,
+				0E0CF0162B03CE810013CE1C /* PlayerViewRepresentable.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		0E0CF0182B03CE810013CE1C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0192B03CE810013CE1C /* ButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		0E0CF01C2B03CE810013CE1C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF01D2B03CE810013CE1C /* MenuButton.swift */,
+				0E0CF01E2B03CE810013CE1C /* MenuItem.swift */,
+				0E0CF01F2B03CE810013CE1C /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		0E0CF0222B03CE810013CE1C /* CardItem */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0232B03CE810013CE1C /* CardItem.swift */,
+				4AA2F89D2B4AC34900099CC6 /* PosterView.swift */,
+				4AA2F89B2B4AC34100099CC6 /* PosterCardItem.swift */,
+			);
+			path = CardItem;
+			sourceTree = "<group>";
+		};
+		0E0CF0242B03CE810013CE1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0262B03CE810013CE1C /* AdModel.swift */,
+				0E0CF0272B03CE810013CE1C /* ItemModel.swift */,
+				0E0CF0292B03CE810013CE1C /* ErrorResponse.swift */,
+				0E0CF0252B03CE810013CE1C /* ChannelModel.swift */,
+				0E0CF0282B03CE810013CE1C /* MediaItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E0CF02A2B03CE810013CE1C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF02B2B03CE810013CE1C /* MenuVM.swift */,
+				0E0CF02C2B03CE810013CE1C /* MainPageVM.swift */,
+				0E0CF02E2B03CE810013CE1C /* ApplicationVM.swift */,
+				0E0CF02D2B03CE810013CE1C /* ContentPageVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E0CF0302B03CE810013CE1C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF0312B03CE810013CE1C /* Raleway-Medium.ttf */,
+				0E0CF0322B03CE810013CE1C /* Raleway-SemiBold.ttf */,
+				0E0CF0332B03CE810013CE1C /* Raleway-ExtraBold.ttf */,
+				0E0CF0342B03CE810013CE1C /* Raleway-Regular.ttf */,
+				0E0CF0352B03CE810013CE1C /* Raleway-Light.ttf */,
+				0E0CF0362B03CE810013CE1C /* Raleway-Black.ttf */,
+				0E0CF0372B03CE810013CE1C /* Raleway-Thin.ttf */,
+				0E0CF0382B03CE810013CE1C /* Raleway-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0E0CF0392B03CE810013CE1C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0E0CF03A2B03CE810013CE1C /* Endpoints.swift */,
+				0E0CF03B2B03CE810013CE1C /* APIError.swift */,
+				0E0CF03C2B03CE810013CE1C /* APIService.swift */,
+				0E0CF03D2B03CE810013CE1C /* DataFetcher.swift */,
+				4A6142202B8B66F100B0FCCF /* NetworkMonitor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E0CEFF52B03CE610013CE1C /* BritaliansTV-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0CF0042B03CE630013CE1C /* Build configuration list for PBXNativeTarget "BritaliansTV-tvOS" */;
+			buildPhases = (
+				0E0CEFF22B03CE610013CE1C /* Sources */,
+				0E0CEFF32B03CE610013CE1C /* Frameworks */,
+				0E0CEFF42B03CE610013CE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BritaliansTV-tvOS";
+			packageProductDependencies = (
+				4AB596652BAAD55600318D2D /* Kingfisher */,
+				4AB596682BAAD57D00318D2D /* GoogleInteractiveMediaAds */,
+				4AB5966B2BAAD58F00318D2D /* XMLCoder */,
+			);
+			productName = "BritaliansTV-tvOS";
+			productReference = 0E0CEFF62B03CE610013CE1C /* BritaliansTV-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E0CEFEE2B03CE610013CE1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0E0CEFF52B03CE610013CE1C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E0CEFF12B03CE610013CE1C /* Build configuration list for PBXProject "BritaliansTV-tvOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E0CEFED2B03CE610013CE1C;
+			packageReferences = (
+				4AB596642BAAD55600318D2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				4AB596672BAAD57D00318D2D /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-tvos" */,
+				4AB5966A2BAAD58F00318D2D /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
+			productRefGroup = 0E0CEFF72B03CE610013CE1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E0CEFF52B03CE610013CE1C /* BritaliansTV-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E0CEFF42B03CE610013CE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0CF05E2B03CE820013CE1C /* Raleway-ExtraBold.ttf in Resources */,
+				0E0CF0632B03CE820013CE1C /* Raleway-Bold.ttf in Resources */,
+				0E0CF0602B03CE820013CE1C /* Raleway-Light.ttf in Resources */,
+				0E0CF05C2B03CE820013CE1C /* Raleway-Medium.ttf in Resources */,
+				0E0CF03F2B03CE810013CE1C /* Assets.xcassets in Resources */,
+				0E0CF05F2B03CE820013CE1C /* Raleway-Regular.ttf in Resources */,
+				0E0CF0622B03CE820013CE1C /* Raleway-Thin.ttf in Resources */,
+				0E0CF05D2B03CE820013CE1C /* Raleway-SemiBold.ttf in Resources */,
+				0E0CF0612B03CE820013CE1C /* Raleway-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E0CEFF22B03CE610013CE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0CF0532B03CE810013CE1C /* AdModel.swift in Sources */,
+				0E0CF0472B03CE810013CE1C /* PlayerViewRepresentable.swift in Sources */,
+				4A61289D2B5C52AA00BCF2E4 /* TrailerPlayer.swift in Sources */,
+				0E0CF0402B03CE810013CE1C /* Font.swift in Sources */,
+				0E41B6192B03E3BB00BB7A55 /* BackgroundView.swift in Sources */,
+				0E0CF0512B03CE810013CE1C /* CardItem.swift in Sources */,
+				4ACE63702BB5397200A5011A /* View.swift in Sources */,
+				4AA2F89E2B4AC34900099CC6 /* PosterView.swift in Sources */,
+				0E0CF0642B03CE820013CE1C /* Endpoints.swift in Sources */,
+				0E0CF04C2B03CE810013CE1C /* MenuButton.swift in Sources */,
+				0E0CF0572B03CE810013CE1C /* MenuVM.swift in Sources */,
+				0E0CF0582B03CE810013CE1C /* MainPageVM.swift in Sources */,
+				0E0CF0562B03CE810013CE1C /* ErrorResponse.swift in Sources */,
+				0E0CF0652B03CE820013CE1C /* APIError.swift in Sources */,
+				0E0CF0592B03CE810013CE1C /* ContentPageVM.swift in Sources */,
+				0E0CF0672B03CE820013CE1C /* DataFetcher.swift in Sources */,
+				0E0CF03E2B03CE810013CE1C /* BritaliansTVApp.swift in Sources */,
+				0E0CF0552B03CE810013CE1C /* MediaItemModel.swift in Sources */,
+				0E0CF04A2B03CE810013CE1C /* MainPageContent.swift in Sources */,
+				0E0CF04E2B03CE810013CE1C /* MenuView.swift in Sources */,
+				0E0CF0502B03CE810013CE1C /* SeasonPageContent.swift in Sources */,
+				4A6142232B8B729C00B0FCCF /* ErrorMessageView.swift in Sources */,
+				0E0CF0452B03CE810013CE1C /* MainPage.swift in Sources */,
+				0E0CF0432B03CE810013CE1C /* PopupView.swift in Sources */,
+				0E0CF0462B03CE810013CE1C /* VideoPlayerView.swift in Sources */,
+				0E0CF0522B03CE810013CE1C /* ChannelModel.swift in Sources */,
+				4AA2F8A02B4AC8FB00099CC6 /* UIImage.swift in Sources */,
+				4A6142212B8B66F100B0FCCF /* NetworkMonitor.swift in Sources */,
+				0E0CF0662B03CE820013CE1C /* APIService.swift in Sources */,
+				4AA2F89C2B4AC34100099CC6 /* PosterCardItem.swift in Sources */,
+				0E0CF05A2B03CE820013CE1C /* ApplicationVM.swift in Sources */,
+				0E0CF0412B03CE810013CE1C /* Color.swift in Sources */,
+				0E0CF0492B03CE810013CE1C /* ButtonStyle.swift in Sources */,
+				0E0CF0442B03CE810013CE1C /* LoadingView.swift in Sources */,
+				0E0CF04D2B03CE810013CE1C /* MenuItem.swift in Sources */,
+				0E0CF04B2B03CE810013CE1C /* VideoPageContent.swift in Sources */,
+				0E0CF0542B03CE810013CE1C /* ItemModel.swift in Sources */,
+				0E0CF04F2B03CE810013CE1C /* HighlightedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E0CF0022B03CE630013CE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BritaliansTV-tvOS/Info.plist";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		0E0CF0032B03CE630013CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BritaliansTV-tvOS/Info.plist";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E0CF0052B03CE630013CE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTJFRK5W6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BritaliansTV-tvOS/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.britalianstv.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		0E0CF0062B03CE630013CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LTJFRK5W6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BritaliansTV-tvOS/Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.britalianstv.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E0CEFF12B03CE610013CE1C /* Build configuration list for PBXProject "BritaliansTV-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0CF0022B03CE630013CE1C /* Debug */,
+				0E0CF0032B03CE630013CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E0CF0042B03CE630013CE1C /* Build configuration list for PBXNativeTarget "BritaliansTV-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E0CF0052B03CE630013CE1C /* Debug */,
+				0E0CF0062B03CE630013CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AB596642BAAD55600318D2D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		4AB596672BAAD57D00318D2D /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-tvos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-tvos";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4AB5966A2BAAD58F00318D2D /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AB596652BAAD55600318D2D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB596642BAAD55600318D2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		4AB596682BAAD57D00318D2D /* GoogleInteractiveMediaAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB596672BAAD57D00318D2D /* XCRemoteSwiftPackageReference "swift-package-manager-google-interactive-media-ads-tvos" */;
+			productName = GoogleInteractiveMediaAds;
+		};
+		4AB5966B2BAAD58F00318D2D /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AB5966A2BAAD58F00318D2D /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0E0CEFEE2B03CE610013CE1C /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Middle_2x.png",
+      "idiom" : "tv"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
